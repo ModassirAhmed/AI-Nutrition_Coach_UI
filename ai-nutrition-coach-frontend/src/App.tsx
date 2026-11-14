@@ -5,6 +5,7 @@ import Upload from './Pages/Upload'
 import Dashboard from './Pages/Dashboard'
 import History from './Pages/History'
 import './App.css'
+import ReviewMeal from './Pages/ReviewMeal'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/upload" element={<Upload />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/history" element={<History />} />
+          <Route path="/review" element={<ReviewMeal />} />
         </Routes>
       </div>
     </BrowserRouter>

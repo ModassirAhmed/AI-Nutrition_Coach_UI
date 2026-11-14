@@ -1,10 +1,21 @@
+import UploadCard from "../components/UploadCard";
+
 const Upload = () => {
   return (
-    <main className="p-6">
-      <h2 className="text-3xl font-bold text-slate-900">Upload</h2>
-      <p className="mt-4 text-slate-600">Upload your nutrition data or meal photos here.</p>
-    </main>
-  )
-}
+    <div className="mx-auto max-w-5xl">
 
-export default Upload
+      <h1 className="mb-2 text-4xl font-bold">
+        Analyze Your Meal
+      </h1>
+
+      <p className="mb-8 text-gray-400">
+        Upload a photo and let AI identify the food and estimate nutrition.
+      </p>
+
+      <UploadCard />
+
+    </div>
+  );
+};
+
+export default Upload;
