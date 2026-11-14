@@ -1,5 +1,5 @@
 export const APP_CONSTANTS = {
-  USE_MOCK_API: true, //change this to false to use the real API
+  USE_MOCK_API: true, // Keep true in public repos; set to false only for local testing with a real API key.
   MAX_FILE_SIZE_MB: 10,
 };
 
